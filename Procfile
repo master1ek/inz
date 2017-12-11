@@ -1,1 +1,1 @@
-web: java -jar target/inz.jar
+web: java $JAVA_OPTS - cp target/inz.jar crawler.crawle.Publisher $PORT
